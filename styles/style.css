@@ -1,0 +1,387 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    background: url('../assets/background.jpg') center/cover no-repeat fixed;
+    padding-top: 150px;
+}
+
+mark{
+    background: #ddc0c1;
+}
+
+footer{
+    text-align: right;
+    color: darkgrey;
+    margin: 50px 20px;
+    padding-bottom: 20px;
+}
+
+/*header*/
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+#fejlec-kep {
+    position: static;
+    width: 100%;
+}
+
+audio{
+    position: absolute;
+    display: inline-block;
+    width: 247px;
+    top: 10px;
+    left: 3px;
+}
+
+#header-container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+#profil-link {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+}
+#profil-link:hover {
+    text-decoration: underline;
+}
+/*header*/
+
+/*footer*/
+
+#login-footer {
+    margin-top: 550px;
+}
+
+/*footer*/
+
+/*Bejelentkezés*/
+
+#login-form {
+    width: 400px;
+    margin: auto;
+}
+
+#regist-info {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/*Bejelentkezés*/
+
+/*Himedzsi*/
+
+.himeji-txt, #himeji-header{
+    width: 1300px;
+}
+
+.himeji-txt{
+    margin: 20px auto;
+    text-align: justify;
+}
+
+#himeji-header{
+    margin: 50px auto 0 auto;
+}
+
+#himeji-img{
+    height: 300px;
+    float: right;
+    margin: 50px 300px 20px 20px;
+    border: #1C2242 solid 20px;
+}
+
+#himeji-layout{
+    height: 300px;
+    margin: 20px 20px 20px 300px;
+    float: left;
+    border: #1C2242 solid 20px;
+
+}
+
+#himeji-vid{
+    margin: 20px 35%;
+    border: #1C2242 solid 20px;
+}
+
+/*Himedzsi*/
+
+/*Kioto.html*/
+
+#kioto-txt{
+    margin: 50px 300px;
+}
+
+/*Kioto*/
+
+/*Fooldal.html*/
+.side-by-side-content {
+    padding: 0 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 325px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.text-container {
+    display: inline;
+}
+
+.text-container h2 {
+    text-align: center;
+}
+
+.text-container .text{
+    text-align: justify;
+}
+.side-by-side-content .image{
+    margin: 0;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.text{
+ margin: 0;
+}
+
+.text-container .text img {
+    margin: 0 0 0 20px;
+    float: right;
+}
+
+.left-image {
+    margin: 0 20px 0 0;
+    float: left;
+}
+
+/*Fooldal.html*/
+
+/*menu*/
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menubar{
+    display: inline-block;
+    padding: 10px;
+    background-color: #507494;
+    border: 3px solid #1C2242;
+    border-radius: 10px;
+    width: 235px;
+    height: 20px;
+    transition: width 0.1s, height 0.1s;
+    transition-timing-function: linear;
+
+}
+.menulink{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 28px 32px;
+}
+
+#aktualis{
+    background-color: #1C2242;
+}
+
+.menubar:hover{
+    background-color: #1C2242;
+    width: 245px;
+}
+
+/*menu*/
+
+form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+input, select, textarea, fieldset { margin-bottom: 10px; }
+
+input[type="radio"]{
+    margin: 0 15px 10px 0;
+}
+
+input[type="checkbox"]{
+    margin-bottom: 0;
+}
+
+#last-checkbox {
+    margin-bottom: 15px;
+}
+
+#rejtett{
+    color: darkgrey;
+}
+
+input[type="reset"], input[type="submit"] {
+    background-color: #BA4347;
+    color: #FFF;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 197px;
+    height: 40px;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover{
+    background-color: #bf6b6e;
+}
+
+input:focus { background-color: #e2c8c9; }
+
+legend{
+    font-size: 20px;
+    color: #BA4347;
+    font-weight: bold;
+    font-style: italic;
+}
+
+fieldset{
+    border: 3px solid #BA4347;
+    padding: 15px;
+}
+
+
+
+/*korszakok table*/
+
+.korszakok-table {
+    letter-spacing: 1px;
+    line-height: 25px;
+    width: 71%;
+    margin: 15px auto;
+}
+
+.korszakok-table, .korszakok-table td, .korszakok-table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.korszakok-table th {
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+.korszakok-table td{
+    overflow: visible;
+}
+
+.korszakok-table tr th:first-child {
+    background-color: #754E3F;
+}
+
+.korszakok-table tr th:nth-child(2) {
+    background-color: #677456;
+}
+
+.korszakok-table tr th:nth-child(3) {
+    background-color: #507494;
+}
+
+.korszakok-table tr th:nth-last-child(2) {
+    background-color: #1C2242;
+}
+
+.korszakok-table tr th:last-child {
+    background-color: #BA4347;
+}
+
+/*korszakok table*/
+
+/* Fudzsi-hegy */
+
+.Fudzsi-hegy-content {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.Fudzsi-hegy-link, .Fudzsi-hegy-link:visited, .Fudzsi-hegy-link:hover {
+    color: #507494;
+}
+
+.Fudzsi-hegy-link:active {
+    color: #1C2242;
+}
+
+figure {
+    width: fit-content;
+    position: relative;
+    left: -40px;
+    top: 5px;
+    border: 1px solid black;
+}
+
+/* Profil oldal */
+
+#profil-oldalak {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 35px;
+    background-color: #BA4347;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 197px;
+    height: 40px;
+    color: #FFF;
+    text-decoration: none;
+}
+#profil-adatok {
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#profil-adatok th {
+    text-align: left;
+}
+
+#profil-adatok tr th,#profil-adatok tr td{
+    padding: 5px;
+}
+#profil-adatok img {
+    max-width: 400px;
+    height: auto;
+}
+
+/* Fudzsi-hegy */
+
+/* nyomtatási stílus */
+
+@media print {
+    footer {
+        page-break-after: always;
+    }
+
+    video, audio {
+        display: none;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+}
+
+@page {
+    margin: 0.5cm;
+    size: A4 portrait;
+}
+
+/* nyomtatási stílus */
